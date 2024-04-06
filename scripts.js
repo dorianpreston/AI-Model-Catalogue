@@ -25,16 +25,16 @@
 
 
 
-const MIDJOURNEY_URL = "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg";
-const DALLE_URL = "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
-const LEONARDO_AI_URL = "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
-const ARTI_PICS_URL = "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg";
-const BLUEWILLOW_URL = "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
-const STABLE_DIFFUSION_URL = "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
-const BLACKINK_AI_URL = 
-const APECTURE_URL =
-const PIXELMIND_URL =
-const REPLICATE_URL = 
+const MIDJOURNEY_URL = "https://remoney.ru/uploads/posts/2022-08/logo-remoney-3.png";
+const DALLE_URL = "https://tibs.at/sites/default/files/styles/artikelbilder_colorbox_gross/public/2023-01/dall-E-2.png?itok=l97SsgEv";
+const LEONARDO_AI_URL = "https://aifinesse.com/wp-content/uploads/ai-grid/leonardo_ai.png";
+const ARTI_PICS_URL = "https://i.pinimg.com/originals/30/26/b3/3026b33cbf0a63d99686ce45acf2e93a.jpg";
+const BLUEWILLOW_URL = "https://ai-finder.fra1.cdn.digitaloceanspaces.com/logos/BlueWillow.jpg";
+const STABLE_DIFFUSION_URL = "https://openaimaster.io/wp-content/uploads/2023/06/stablediffusion.jpg";
+const BLACKINK_AI_URL = "https://intelarter.com/wp-content/uploads/2023/05/blackink-ai-logo.webp";
+const APECTURE_URL = "https://www.logotypes101.com/logos/998/303C753C5AFC1CD2EE31A675F19FAAB9/aperturescienceinnovators.png";
+const PIXELMIND_URL = "https://beta.pixelmind.ai/static/Pixelmind_Meta.png";
+const REPLICATE_URL = "https://www.sequoiacap.com/wp-content/uploads/sites/6/2022/06/replicate-logo-black-transparent.svg";
 
 
 // This is an array of strings (TV show titles)
