@@ -5,6 +5,25 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </header>
 
+  <!-- Filter buttons -->
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Ai Models')"> Ai Models</button>
+  <button class="btn" onclick="filterSelection('Price')"> Price</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <div class="filterDiv Ai Model">Leonardo Ai</div>
+   <div class="filterDiv Ai Model">Replicate</div>
+   <div class="filterDiv Ai Model">Midjourney</div>
+   <div class="filterDiv Ai Model">AARTI.Pics</div>
+   <div class="filterDiv Ai Model">Pixel Mind</div>
+  <div class="filterDiv Ai Model">Apeture</div>
+<div class="filterDiv Ai Model">BlueWillow</div>
+<div class="filterDiv Ai Model">Blackink.Ai</div>
+  <div class="filterDiv Price">Free</div>
+</div>
    <div class="search-bar">
   <input 
     id="search" 
