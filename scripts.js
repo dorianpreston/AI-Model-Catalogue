@@ -45,20 +45,6 @@ header {
 .search-bar [list]::-webkit-calendar-picker-indicator {
   display: none !important;
 }
-templateSheet.setBindingPath(0, 0, "Nr");
-
-templateSheet.setBindingPath(0, 1, "Name");
-
-templateSheet.setBindingPath(0, 3, "Type of AI Model");
-
-templateSheet.setBindingPath(0, 4, "Image Generation or Text Generation");
-
-templateSheet.setBindingPath(0, 5, "Description");
-
-templateSheet.setBindingPath(0, 6, "Image");
-
-templateSheet.setBindingPath(0, 7, "Price");
-
 /** Dorians Notes!! Things to do 4/7/2024: Add search bar, add filter center 
 */
 
