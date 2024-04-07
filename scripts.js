@@ -22,6 +22,19 @@
  *    with the string you added to the array, but a broken image.
  * 
  */
+templateSheet.setBindingPath(0, 0, "Nr");
+
+templateSheet.setBindingPath(0, 1, "Name");
+
+templateSheet.setBindingPath(0, 3, "Type of AI Model");
+
+templateSheet.setBindingPath(0, 4, "Image Generation or Text Generation");
+
+templateSheet.setBindingPath(0, 5, "Description");
+
+templateSheet.setBindingPath(0, 6, "Image");
+
+templateSheet.setBindingPath(0, 7, "Review");
 
 
 
