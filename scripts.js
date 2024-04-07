@@ -34,7 +34,7 @@ templateSheet.setBindingPath(0, 5, "Description");
 
 templateSheet.setBindingPath(0, 6, "Image");
 
-templateSheet.setBindingPath(0, 7, "Review");
+templateSheet.setBindingPath(0, 7, "Price");
 
 /** Dorians Notes!! Things to do 4/7/2024: Add search bar, add filter center 
 */
