@@ -36,7 +36,8 @@ templateSheet.setBindingPath(0, 6, "Image");
 
 templateSheet.setBindingPath(0, 7, "Review");
 
-
+/** Dorians Notes!! Things to do 4/7/2024: Add search bar, add filter center 
+*/
 
 const MIDJOURNEY_URL = "https://remoney.ru/uploads/posts/2022-08/logo-remoney-3.png";
 const DALLE_URL = "https://tibs.at/sites/default/files/styles/artikelbilder_colorbox_gross/public/2023-01/dall-E-2.png?itok=l97SsgEv";
