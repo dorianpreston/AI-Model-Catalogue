@@ -57,7 +57,7 @@ let titles = [
 // This function adds cards the page to display the data in the array
 function showCards() {
     const cardContainer = document.getElementById("card-container");
-    cardContainer.innerHTML = "";
+    cardContainer.innerHTML = "title";
     const templateCard = document.querySelector(".card");
     
     for (let i = 0; i < titles.length; i++) {
