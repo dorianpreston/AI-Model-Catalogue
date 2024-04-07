@@ -21,13 +21,13 @@ html, body {
 }
 
 .filterDiv {
-  float: left;
+  float: center;
   background-color: #2196F3;
   color: #ffffff;
-  width: 100px;
+  width: 200px;
   line-height: 100px;
   text-align: center;
-  margin: 2px;
+  margin: 4px;
   display: none; /* Hidden by default */
 }
 
