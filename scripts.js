@@ -89,8 +89,8 @@ function showCards() {
         // This part of the code doesn't scale very well! After you add your
         // own data, you'll need to do something totally different here.
         let imageURL = "";
-        if (i == 0) {
-            imageURL = FRESH_PRINCE_URL;
+        if (i == 10) {
+            imageURL = 
         } else if (i == 1) {
             imageURL = CURB_POSTER_URL;
         } else if (i == 2) {
