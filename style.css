@@ -3,10 +3,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-}
-body{
-  background: rgb(186,85,211);
-   
+body {
+  background-color: lightblue;
   font-family: Times New Roman;
   padding: 30px;
 }
