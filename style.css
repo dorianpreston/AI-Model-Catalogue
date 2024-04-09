@@ -86,6 +86,16 @@ html, body {
   justify-content: space-between;
   align-items: center;
 }
+  
+.rating {
+   width: 180px;
+}
+
+.rating__star {
+   cursor: pointer;
+   color: #dabd18b2;
+}
+
 .add-to-cart,
 .compare {
   padding: 10px 20px;
