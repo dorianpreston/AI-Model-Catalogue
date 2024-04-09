@@ -12,26 +12,41 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="search-container main-container">
-      <i class="fa fa-search"></i>
-      <input type="text" id="search-input" placeholder="Search..." autocomplete="off"/>
-    </div>
-    <div class="main-container">
-      <div id="nothing-alert">Nothing Found</div>
-      <div class="cards"><h2 class="icon-name">Replicate</h2></div>
-      <div class="cards"><h2 class="icon-name">Midjourney</h2></div>
-      <div class="cards"><h2 class="icon-name">Leonardo.AI</h2></div>
-      <div class="cards"><h2 class="icon-name">Stable Diffusion</h2></div>
-      <div class="cards"><h2 class="icon-name">Deep Dream</h2></div>
-      <div class="cards"><h2 class="icon-name">DALL-E</h2></div>
-      <div class="cards"><h2 class="icon-name">Blackink.AI</h2></div>
-      <div class="cards"><h2 class="icon-name">DiffusionBee</h2></div>
-      <div class="cards"><h2 class="icon-name">Apeture.AI</h2></div>
-      <div class="cards"><h2 class="icon-name">BlueWillow</h2></div>
-      <div class="cards"><h2 class="icon-name">ARTI.Pics</h2></div>
-      <div class="cards"><h2 class="icon-name">Mini</h2></div>
-    </div>
+   <!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" type="text/css" href="search.css" />
+  <head>
+    <title>More Generative AI Models</title>
+   <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Free Ai')"> Free AI Models</button>
+  <button class="btn" onclick="filterSelection('Text Only Ai')">Text Only Ai</button>
+  <button class="btn" onclick="filterSelection('Image Ai')">
+  Image Ai
+  </button>
 
-    <script src="script.js"></script>
-  </body>
-</html>
+<!-- Filterable elements + class div -->
+<div class="container">
+  <div class="filterDiv Free Ai">Leonardo Ai</div>
+  <div class="filterDiv Text Only Ai">Chat GPT</div>
+  <div class="filterDiv Free Ai">Craiyon</div>
+  <div class="filterDiv Text Only Ai">Sudowrite</div>
+  <div class="filterDiv Free Ai">Canva Ai</div>
+  <div class="filterDiv Free Ai">NightCafe</div>
+  <div class="filterDiv Text Only Ai Free Ai">Phrasly.Ai</div>
+  <div class="filterDiv Text Only Ai Free Ai">Pop.Ai</div>
+  <div class="filterDiv Free Ai Text Only Ai">Perplexity.ai</div>
+  <div class="filterDiv Free Ai">Poe</div>
+  <div class="filterDiv Free Ai Image Ai">PicsArt AI</div>
+  <div class="filterDiv Free Ai Text Only Ai">Notion AI</div>
+  <div class="filterDiv Image Ai">Midjourney</div>
+  <div class="filterDiv Image Ai">DALL-E</div>
+  <div class="filterDiv Image Ai">ARTI.Pics</div>
+  <div class="filterDiv Image Ai">BlueWillow</div>
+  <div class="filterDiv Image Ai">StableDiffusion</div>
+ <div class="filterDiv Image Ai">Blackink.AI</div>
+ <div class="filterDiv Image Ai">Apecturw.AI</div>
+ <div class="filterDiv Image Ai">PixelMind</div>
+ <div class="filterDiv Image Ai">Replicate</div>
+</div>
+
