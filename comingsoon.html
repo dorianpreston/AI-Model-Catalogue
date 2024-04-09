@@ -1,62 +1,36 @@
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+<html lang="en">
+  <head>
+    <title>JavaScript Search Filter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="search-container main-container">
+      <i class="fa fa-search"></i>
+      <input type="text" id="search-input" placeholder="Search..." autocomplete="off"/>
+    </div>
+    <div class="main-container">
+      <div id="nothing-alert">Nothing Found</div>
+      <div class="cards"><h2 class="icon-name">Replicate</h2></div>
+      <div class="cards"><h2 class="icon-name">Midjourney</h2></div>
+      <div class="cards"><h2 class="icon-name">Leonardo.AI</h2></div>
+      <div class="cards"><h2 class="icon-name">Stable Diffusion</h2></div>
+      <div class="cards"><h2 class="icon-name">Deep Dream</h2></div>
+      <div class="cards"><h2 class="icon-name">DALL-E</h2></div>
+      <div class="cards"><h2 class="icon-name">Blackink.AI</h2></div>
+      <div class="cards"><h2 class="icon-name">DiffusionBee</h2></div>
+      <div class="cards"><h2 class="icon-name">Apeture.AI</h2></div>
+      <div class="cards"><h2 class="icon-name">BlueWillow</h2></div>
+      <div class="cards"><h2 class="icon-name">ARTI.Pics</h2></div>
+      <div class="cards"><h2 class="icon-name">Mini</h2></div>
+    </div>
 
-.bgimg {
-  background-color: lightblue;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
-
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
-
-<div class="bgimg">
-  <div class="topleft">
-    <p>Logo</p>
-  </div>
-  <div class="middle">
-    <h1>Page Under Construction</h1>
-    <hr>
-    <p>I'm working on this! Promise</p>
-  </div>
-  <div class="bottomleft">
-    <p>Some text</p>
-  </div>
-</div>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
