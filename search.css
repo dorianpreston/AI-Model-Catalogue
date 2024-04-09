@@ -96,9 +96,7 @@ body {
   .search-container{
     width: 50%;
   }
-}
-.container {
-  overflow: hidden;
+.container { overflow: hidden;
 }
 
 .filterDiv {
@@ -112,10 +110,12 @@ body {
   display: none; /* Hidden by default */
 }
 
+/* The "show" class is added to the filtered elements */
 .show {
   display: block;
 }
 
+/* Style the buttons */
 .btn {
   border: none;
   outline: none;
@@ -124,11 +124,12 @@ body {
   cursor: pointer;
 }
 
+/* Add a light grey background on mouse-over */
 .btn:hover {
   background-color: #ddd;
 }
 
-
+/* Add a dark background to the active button */
 .btn.active {
   background-color: #666;
   color: white;
